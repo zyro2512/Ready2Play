@@ -1,0 +1,89 @@
+@font-face {
+    font-family:casino-letra ;
+    src: url(casino-letra.TTF);
+}
+
+.body{
+    height: 400px;
+    background-color: black;
+}
+
+.bordes {
+    border: 5px solid red; /* Color inicial del borde */
+    transition: border-color 0.5s ease; /* Transición para el color del borde */
+  }
+  
+  .borde-verde {
+    border-color: red; /* Color del borde cuando cambia */
+  }
+  
+  .borde-azul {
+    border-color: black; /* Otro color de borde cuando cambia */
+  }
+  
+.divmenu{
+    height: 15%;
+    width: 100%;
+    background-color: gray;
+    margin-bottom: 0%;
+
+}
+
+.home{
+    font-family: casino-letra, sans-serif;
+}
+
+.alineardivs{
+    height: 100%;
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    
+        }
+
+
+.cuadro {
+    width: 100%; /* Ancho del cuadro */
+    height: 60%; /* Alto del cuadro */
+    text-align: center;
+    top: 0;
+    margin-top: 0%;
+    background-color: black;
+    background-image: url(https://th.bing.com/th/id/OIP.SzUBDnFAZL-AhMTddSmnsAHaFj?pid=ImgDet&rs=1);
+    background-size: cover;
+    font-family: casino-letra, sans-serif;
+    font-size: 450%;
+    color: white;
+}
+
+.cuadro1 {
+    width: 20%; /* Ancho del cuadro */
+    height: 100%; /* Alto del cuadro */
+    margin-right: 1%;
+    text-align: center;
+    background-image: url(https://th.bing.com/th/id/OIP.rXNbNQtLhRUP3BR0N5Yv3wHaFj?pid=ImgDet&rs=1);
+    background-size: cover;
+    position: left;
+    color: white;        
+}
+
+    
+.cuadro2 {
+    width: 60%; /* Ancho del cuadro */
+    height: 100%; /* Alto del cuadro */
+    text-align: center;
+    background-color: gray;
+    position: center;
+    color: white;
+}
+
+.cuadro3 {
+    width: 20%; /* Ancho del cuadro */
+    height: 100%; /* Alto del cuadro */
+    margin-left: 1%;
+    text-align: center;
+    background-image: url(https://th.bing.com/th/id/OIP.rXNbNQtLhRUP3BR0N5Yv3wHaFj?pid=ImgDet&rs=1);
+    background-size: cover;
+    position: right;
+    color: white;
+}
