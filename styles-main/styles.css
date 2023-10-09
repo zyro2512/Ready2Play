@@ -1,6 +1,13 @@
+/*letras de Casino*/
 @font-face {
     font-family:casino-letra ;
     src: url(casino-letra.TTF);
+}
+
+/*Logos de Casino*/
+@font-face {
+    font-family: casino-logo;
+    src: url(casino-img.ttf);
 }
 
 .body{
@@ -26,12 +33,17 @@
     width: 100%;
     background-color: gray;
     margin-bottom: 0%;
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
 
 }
 
-.home{
+.home-nosotros{
     font-family: casino-letra, sans-serif;
+    font-size: medium;
 }
+
 
 .alineardivs{
     height: 100%;
@@ -73,7 +85,7 @@
     height: 100%; /* Alto del cuadro */
     text-align: center;
     background-color: gray;
-    position: center;
+    /*position: center;*/
     color: white;
 }
 
@@ -87,3 +99,51 @@
     position: right;
     color: white;
 }
+
+.divcuadro1{
+    width: 60%;
+    height: 30%;
+    font-family: casino-logo, sans-serif;
+    text-align: center;
+    font-size: 700%;
+    margin-left: 20%;
+  }
+
+  .divcuadro2{
+    width: 30%;
+    height: 50%;
+    margin: 1%;
+    border: 5px;
+  }
+
+.divcuadro3{
+    width: 20;
+    height: 40%;
+}
+
+.botonhome{
+    width: 10%;
+    height: 30%;
+    margin: 10px;
+    position: center;
+    background-color: grey;
+    color: white;
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: black; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: 3px solid red; /* Borde del botón */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer;
+  }
+  
+  .boton:hover {
+    background-color: red; /* Cambia el color de fondo al pasar el ratón */
+    border-color: black;
+  }
+  

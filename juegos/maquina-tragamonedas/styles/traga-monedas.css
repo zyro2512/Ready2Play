@@ -1,0 +1,57 @@
+  .slot-machine {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+    padding: 4%;
+    border-radius: 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .reel {
+    width: 100px;
+    height: 200px;
+    border: 10px solid #ccc;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+    border-radius: 15%;
+    background-color: #f9f9f9;
+  }
+  
+  .reel div {
+    font-size: 36px;
+    display: block; /* Para que los símbolos estén en líneas separadas */
+  }
+  
+  button {
+    margin-top: 4%;
+    padding: 2% 3%;
+    font-size: 100%;
+    font-weight: bold;
+    border: none;
+    border-radius: 5%;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: red;
+  }
+
+  #points-display,
+  #attempts-display,
+  #result-display {
+    font-size: 100%;
+    margin-top: 1%;
+    background-color: black;
+    
+    
+  }
+
+  
