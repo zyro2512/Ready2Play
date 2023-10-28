@@ -3,10 +3,12 @@ const botonPedir = document.getElementById('boton-pedir');
 const botonMantener = document.getElementById('boton-mantener');
 const manoJugador = document.getElementById('mano-jugador');
 const manoRepartidor = document.getElementById('mano-repartidor');
+//const botonReiniciar = document.getElementById('boton-reiniciar');
 
 botonRepartir.addEventListener('click', repartir);
 botonPedir.addEventListener('click', pedir);
 botonMantener.addEventListener('click', mantener);
+//botonReiniciar.addEventListener('click', location.reload);
 
 let mazo = [];
 let cartasJugador = [];
@@ -55,6 +57,7 @@ function mantener() {
     cartasRepartidor.push(mazo.pop());
   }
 
+  
   mostrar();
   determinarGanador();
 }
@@ -130,7 +133,7 @@ function verificarPerdida() {
     alert('Te has pasado de 21. ¡Has perdido!');
     
     // Recarga la página después de que el jugador haya aceptado el mensaje
-    reloadPage();
+    //reloadPage();
   }
 }
 
